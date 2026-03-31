@@ -98,9 +98,9 @@ void RunSession::playRound(int round) {
 
 void RunSession::start() {
     std::cout << "\n";
-    std::cout << "  ╔══════════════════════════════════════╗\n";
-    std::cout << "  ║   CARD-RUN GAME  |  Design Pattern   ║\n";
-    std::cout << "  ╚══════════════════════════════════════╝\n";
+    std::cout << "  \n";
+    std::cout << "  ||   CARD-RUN GAME  |  Design Pattern   ||\n";
+    std::cout << "  \n";
     std::cout << "  Selamat datang! Run " << totalRounds << " ronde akan dimulai.\n";
     std::cout << "  Tekan Enter untuk mulai...";
     std::cin.ignore();
