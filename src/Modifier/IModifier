@@ -1,1 +1,14 @@
+#pragma once
+#include <string>
+
+// Interface untuk semua modifier
+// Ini adalah abstraksi dasar dari Decorator-like chain
+class IModifier {
+public:
+    virtual int apply(int currentScore) = 0;
+    virtual std::string getName() const = 0;
+    virtual std::string getDescription() const = 0;
+    virtual IModifier* clone() const = 0;  // Prototype pattern (conceptual impl)
+    virtual ~IModifier() {}
+};
 
